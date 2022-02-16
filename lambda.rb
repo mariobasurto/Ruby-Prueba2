@@ -4,6 +4,7 @@ def test_lambda
 end
 
 def test_block
+    
     (Proc.new {return "Game over"}).call()
     puts "Despues del bloque"
 end
